@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+.hide{
+    display: none;
+}
+.header{
+    height:30px;
+    line-height: 30px;
+    background: #ececec;
+    text-align: center;
+    width: 100%;
+    position: relative;
+}
+.header .left,.header .right,.header .middle{
+    height:30px;
+    font-size: 12px;
+}
+.header .left{
+    width: 30px;
+    float: left;
+    text-decoration: underline;
+}
+.header .right{
+    width: 50px;
+    float: right;
+}
+.header .middle{
+    position: absolute;
+    left:40px;
+    right:50px;
+}
+
+.body{
+    position: absolute;
+    top:30px;
+    bottom:30px;
+    width: 100%;
+}
+.body.noFooter{
+    bottom:0;
+}
+.footer{
+    height:30px;
+    line-height: 30px;
+    background: #ececec;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.footer li{
+    width: 25%;
+    float: left;
+}
+.footer li.active{
+    background: #37f;
+    color:#fff;
+}
+
+/*登录*/
+.login-list{
+    padding:10px;
+    font-size:14px;
+}
+.login-list li{
+    padding:5px 0;
+}
+.text-bar{
+    width: 100%;
+    height:30px;
+}
+.goReg,.forget{
+    color:#3377ff;
+}
+.login-in{
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    background: #000;
+    color:#fff;
+}
+.goReg{
+    width: 100%;
+    height:40px;
+    line-height: 40px;
+    background: #fff;
+    color:#000;
+}
