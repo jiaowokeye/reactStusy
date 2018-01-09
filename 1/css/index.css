@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+.header{
+    height:30px;
+    background: #ececec;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.content{
+    position: absolute;
+    top:30px;
+    bottom:30px;
+    width: 100%;
+}
+
+.footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    background: #ececec;
+    height:30px;
+    text-align: center;
+    font-size: 12px;
+}
+.footer li{
+    float: left;
+    width: 25%;
+}
